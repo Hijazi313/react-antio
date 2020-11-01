@@ -25,7 +25,7 @@ const items = [
 function About() {
     return (
         <div className="block aboutBlock">
-            <div className="fluid">
+            <div className="container-fluid">
                 <div className="titleHolder">
                     <h2>About Us</h2>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, beatae.</p>
