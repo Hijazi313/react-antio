@@ -1,4 +1,5 @@
 import React, { lazy, Suspense } from 'react'
+import Footer from '../common/Footer';
 import Contact from '../Contact';
 
 //  IMPORT COMPONENTS
@@ -23,6 +24,7 @@ export default function Home() {
             <FAQ />
             <Pricing/>
             <Contact />
+            <Footer />
         </div>
     )
 }
