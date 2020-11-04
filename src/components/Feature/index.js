@@ -19,7 +19,7 @@ function index() {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, porro.</p>
                 </div>
                 <Row gutter={[16,16]} >
-                    <Col span={8} >
+                    <Col md={{span:8}} sm={{span:12}} xs={{span:24}} >
                          <Card
                             hoverable
                             cover={<img alt="Modern Design" src={image1} />}
@@ -27,7 +27,7 @@ function index() {
                             <Meta title="Modern Design"  />
                         </Card>
                     </Col>
-                    <Col span={8} >
+                    <Col md={{span:8}} sm={{span:12}} >
                          <Card
                             hoverable
                             cover={<img alt="Clean and Elegent" src={image2} />}
@@ -35,7 +35,7 @@ function index() {
                             <Meta title="Clean and Elegent"  />
                         </Card>
                     </Col>
-                    <Col span={8} >
+                    <Col md={{span:8}} sm={{span:12}} xs={{span:24}} >
                          <Card
                             hoverable
                             cover={<img alt="Great Support" src={image3} />}
@@ -43,7 +43,7 @@ function index() {
                             <Meta title="Great Support"  />
                         </Card>
                     </Col>
-                    <Col span={8} >
+                    <Col md={{span:8}} sm={{span:12}} xs={{span:24}} >
                          <Card
                             hoverable
                             cover={<img alt="Easy To Customise" src={image4} />}
@@ -51,7 +51,7 @@ function index() {
                             <Meta title="Easy To Customise"  />
                         </Card>
                     </Col>
-                    <Col span={8} >
+                    <Col md={{span:8}} sm={{span:12}} xs={{span:24}} >
                          <Card
                             hoverable
                             cover={<img alt="Unlimited Features" src={image5} />}
@@ -59,7 +59,7 @@ function index() {
                             <Meta title="Unlimited Features"  />
                         </Card>
                     </Col>
-                    <Col span={8} >
+                    <Col md={{span:8}} sm={{span:12}} xs={{span:24}} >
                          <Card
                             hoverable
                             cover={<img alt="Advanced Features" src={image6} />}
