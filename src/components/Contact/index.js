@@ -4,7 +4,7 @@ import { Form, Input, Button, Checkbox } from 'antd';
 const {TextArea}  = Input;
 function Contact() {
     return (
-        <div className="block contactBlock">
+        <div id="contact" className="block contactBlock">
             <div className="container-fluid">
                 <div className="titleHolder">
                     <h2>Get In Touch</h2>

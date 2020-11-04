@@ -14,7 +14,7 @@ const Works = lazy(() => import('../Works'))
 
 export default function Home() {
     return (
-        <div className="main">
+        <div id="home" className="main">
             <Hero />
             <Suspense fallback={<div>Loading ...</div>} >
                 <About />

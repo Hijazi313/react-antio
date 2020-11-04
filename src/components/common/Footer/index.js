@@ -3,7 +3,7 @@ import {BackTop} from "antd"
 
 function Footer() {
     return (
-        <div className="container-fluid">
+        <div className="container-fluid bgGray">
       <div className="footer">
         <div className="logo">
           <i className="fas fa-bolt"></i>
